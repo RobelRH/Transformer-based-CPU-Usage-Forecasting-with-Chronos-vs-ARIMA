@@ -24,8 +24,8 @@ We generate **synthetic CPU usage data** with trend, seasonality, noise, and ran
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/RobelRH/Transformer-based-CPU-Usage-Forecasting-with-Chronos-vs-ARIMA.git
+cd Transformer-based-CPU-Usage-Forecasting-with-Chronos-vs-ARIMA
 
 # Install dependencies
 pip install statsmodels matplotlib torch scikit-learn
@@ -67,7 +67,7 @@ pip install statsmodels matplotlib torch scikit-learn
 - Use **real CPU usage datasets** for realistic evaluation  
 - Increase sequence length for transformer input  
 - Multivariate forecasting (CPU + Memory + Network)  
-- Hyperparameter tuning for transformer model  
+- Hyperparameter tuning for the transformer model  
 
 ---
 
